@@ -8,7 +8,7 @@ public class PcacheUpdater : MonoBehaviour
     void Start()
     {
         string pcacheFilePath = "Assets\\test.pcache";
-        string newDataFilePath = "Assets\\TestField.txt";
+        string newDataFilePath = "Assets\\TestField.pcache";
 
 
         List<string> pcacheLines = new List<string>();
@@ -90,4 +90,5 @@ public class PcacheUpdater : MonoBehaviour
         }
         return count;
     }
+
 }
